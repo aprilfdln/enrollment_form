@@ -1,0 +1,152 @@
+/* BODY STYLE */
+body {
+    font-family: "Arial";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* CENTER */
+.wrapper {
+    width: 900px;
+    background: rgba(128, 76, 76, 0.1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0px 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 60px 90px 60px;
+}
+
+/* HEADER STYLE*/
+.wrapper h1 {
+    text-align: center;
+    background-clip: text;
+    color: #ffffff;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* STUDENT DATA */
+.wrapper h3 {
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* INSTRUCTIONS */
+.wrapper ol li{
+    margin: 0 0 20px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.wrapper label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.wrapper input, select, button, table {
+    font-size: 22px;
+}
+
+.wrapper input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #fdfdff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.wrapper input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* SUBMIT BUTTON*/
+.wrapper button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4f7ed4;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.wrapper button:hover {
+    background-color: #22177A;
+}
+
+/* TABLE STYLING */
+.wrapper #form-text{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+.wrapper table th, table td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.wrapper table th {
+    background-color: #4f7ed4;
+    font-weight: bold;
+}
+
+.wrapper table tr {
+    background-color: #4f7ed4;
+
+}
+
+.wrapper table tr {
+    background-color: #73a8dd;
+}
+
+#web_dev{
+    display: inline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#data_science{
+    display: inline;
+    margin-bottom: 20px;
+}
+#networking{
+    display: inline;
+    margin-bottom: 10px;
+}
+#graphic_design{
+    display: inline;
+    margin-bottom: 50px;
+}
+
+#radio{
+    padding-right: 20%;
+}
+.wrapper #male{
+    display: inline;
+
+}
+.wrapper #female{
+    display: inline;
+}
